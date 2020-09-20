@@ -1,0 +1,61 @@
+body{
+    background: rgb(184, 179, 207);
+}
+header{
+    height: 320px;
+    background: url(imagenes/playaPortada.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -460px;
+    margin: 0px;
+}
+nav{
+    background: black;
+    border-radius: 30px;
+    padding: 1px;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top:232px;
+}
+nav li{
+    display: inline-block;
+}
+#pasatiempos img{
+    width: 300px;
+    height: 300px;
+}
+#fotoPerfil img{
+    width: 150px;
+    height: 155px;
+}
+#perfil{
+    position: relative;
+    padding: 5px;
+}
+#biografia{
+    position: absolute;
+    top: 0;
+    left: 190px;
+}
+html{
+    font-family: Arial;
+}
+footer{
+    text-align: end;
+    font-family: cursive;
+}
+.formulario{
+    position: absolute;
+    left: 200px;
+}
+form{
+    margin-left: 30px;
+    background: rgb(124, 107, 199);
+    width: 315px;
+    padding: 20px;
+    border: 1px solid blue;
+}
+#perfilAcademico table{
+    width: 1000px;
+}
